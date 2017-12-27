@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="programador web">
+    <meta name="author" content="Jeovan Farias">
 	<title>Jeovan Farias</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -8,134 +13,35 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
 	<script src="js/particles.min.js"></script>
+	<script src="https://use.fontawesome.com/037b6104b9.js"></script>
 	
 
 </head>
-<body class="blue-grey darken-4" style="overflow: none;" >
-	<div id="particles-js" class="particle"></div>
-	<!--
-	<div class="navbar-fixed" id="navbar">
-		<nav class="green accent-4">
-			<div class="nav-wrapper">
-				<img src="img/logo-mini.svg" id="miniLogo" >
-				<ul class="right hide-on-med-and-down">
-					<li><a href="#sobre" class="blue-grey-text text-darken-4">SOBRE</a></li>
-					<li><a href="#skills" class="blue-grey-text text-darken-4">SKILLS</a></li>
-					<li><a href="sass.html" class="blue-grey-text text-darken-4">PORTIFOLIO</a></li>
-					<li><a href="#contato" class="blue-grey-text text-darken-4">CONTATO</a></li>
-				</ul>
-			</div>
-		</nav>
-	</div>
--->
-	
+<body class="blue-grey darken-4" id="home">
+	<div id="particles-js" class="particle"></div>	
 	<div class="container" style="z-index: 2">
 		<div class="row" style="height: 100vh">
-			<img src="img/logo.svg" style="width: 40%;margin-left: 30%">
+			<img src="img/logo.svg" class="col s6 offset-s3 m4 offset-m4" id="homeLogo">
 			<div class="row">
 				<div class="col s12" style="text-align: center;color: #00c853">
-					<h3>JEOVAN FARIAS</h3>
-					<h5 style="color: white">Desenvolvedor de Sistemas</h5>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row" id="sobre" style="height: 100vh">
-			<div class="col s12" style="text-align: center;color: #00c853" >
-				<h3>SOBRE MIM</h3>
-			</div>
-		</div>
-		<div class="row" id="skills">
-			<div class="col s12" style="text-align: center;color: #00c853" >
-				<h3>SKILLS</h3>
-			</div>
-			<div class="row">
-				<div class="col s3">
-					<img src="img/angular.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/css3.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/express.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/html5.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/js.png"  style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/laravel.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/materialize.png" style="width: 100%">
-				</div>
-				<div class="col s3" >
-					<img src="img/node.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/php.png" style="width: 100%">
-				</div>
-				<div class="col s3">
-					<img src="img/sails.png" style="width: 100%">
+					<h3>Jeovan Farias</h3>
+					<h5 style="color: white">Desenvolvedor Web</h5>
+					<p>Desenvolvimento de sites e Sistemas Web</p>
+					<div class="row">
+						<a href="https://github.com/jeovan" class="waves-effect waves-light btn" style="background: #ffffff;color: #00c853"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/101801886545566999691" class="waves-effect waves-light btn" style="background: #ffffff;color: #00c853"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a href="mailto: jeovan.farias@gmail.com" class="waves-effect waves-light btn" style="background: #ffffff;color: #00c853"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<footer class="page-footer green accent-4" id="contato" >
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h5 style="color: #263238">CONTATO</h5>
-					<p style="color: #263238">E-mail: jeovan.farias@gmail.com</p>
-					<p style="color: #263238">GitHub: https://github.com/jeovan</p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-					<h5 class="white-text">Links</h5>
-					<ul>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container">
-				ALL CONTENT COPYRIGHT 2017
-			</div>
-		</div>
-	</footer>
-	<div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-      <i class="large material-icons green accent-4 ">menu</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating green accent-4 " href="#skills"><i class="material-icons">home</i></a></li>
-      <li><a class="btn-floating green accent-4"><i class="material-icons">account_box</i></a></li>
-      <li><a class="btn-floating green accent-4"><i class="material-icons">assessment</i></a></li>
-      <li><a class="btn-floating green accent-4"><i class="material-icons">email</i></a></li>
-    </ul>
-  </div>
+		
+		
 
 </body>
 <script type="text/javascript">
-	/*
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-		if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-			document.getElementById("navbar").style.top = "0";
-		} else {
-			document.getElementById("navbar").style.top = "-64px";
-		}
-	}*/
-	particlesJS.load('particles-js', 'assets/particles.json', function() {
-		console.log('callback - particles.js config loaded');
-	});
+	particlesJS.load('particles-js', 'assets/particles.json', function() {});
 	$('.fixed-action-btn').floatingActionButton({
     direction: 'left',
     hoverEnabled: false
