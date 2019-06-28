@@ -14,7 +14,16 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
 	<script src="js/particles.min.js"></script>
 	<script src="https://use.fontawesome.com/037b6104b9.js"></script>
-	
+	<script src="https://www.google.com/recaptcha/api.js?render=6LeVKKsUAAAAALUP9mFjsLDSEsnLHW27Ni6xDsMi"></script>
+	<script>
+grecaptcha.ready(function () {
+grecaptcha.execute('6LeVKKsUAAAAALUP9mFjsLDSEsnLHW27Ni6xDsMi',
+{action: 'homepage'})
+.then(function (token) {
+console.log('passou');
+})
+});
+</script>
 
 </head>
 <body class="blue-grey darken-4" id="home">
